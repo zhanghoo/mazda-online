@@ -1,0 +1,22 @@
+$appColor = #CE1B10 // 主色调
+$appColorRGB = 206,27,16 // 主色调rgb
+$bgColor = #F1F1F1
+$borderColor = #D9DEE4
+$contentColor = #3D3D3D
+
+// rem转换
+toRem(val) {
+	return (ceil(val / 37.5 * 1000) / 1000)rem
+}
+// 水平垂直居中
+flex-center() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// 单行溢出省略号
+text-ellipsis() {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
