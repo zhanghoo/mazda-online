@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# mazda
+# mazda-online
 
 ## Project setup
 ```
@@ -20,6 +19,3 @@ npm run build
 ```
 npm run lint
 ```
-=======
-# mazda-online
->>>>>>> upstream/master
